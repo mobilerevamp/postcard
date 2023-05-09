@@ -1,0 +1,85 @@
+@font-face {
+	font-family: 'P22 Eaglefeather';
+	font-style: normal;
+	font-weight: normal;
+	src: local('P22 Eaglefeather'), url('eaglefeather.woff') format('woff');
+}
+body {
+	background: black;
+	margin: 0;
+	position: relative;
+}
+.wrapper {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	height: 100vh;
+}
+main {
+	background: white;
+	padding: 13px;
+	color: black;
+	font-family: 'P22 Eaglefeather';
+	/* font-family: 'Space Grotesk', sans-serif; */
+	font-size: 22px;
+	width: 498px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+img {
+	margin: -1px -2px 0 0;
+}
+h1 {
+	font-size: 37px;
+	margin: 7px 0 0;
+}
+form {
+	text-align: center;
+}
+form .top {
+	display: flex;
+	justify-content: space-between;
+}
+#copy {
+	width: 305px;
+	text-align: left;
+}
+#copy p {
+	margin: 18px 0 20px;
+	line-height: 25px;
+	letter-spacing: .3px;
+}
+#details {
+	width: 250px;
+	padding: 12px 10px 0 0;
+}
+input, textarea {
+	font-family: 'P22 Eaglefeather';
+	font-size: 22px;
+}
+input[type="text"], textarea {
+	border: none;
+	border-bottom: solid 1px #808080;
+	margin-bottom: 11px;
+	width: 100%;
+}
+input[type="text"]:focus-visible, textarea:focus-visible {
+	border: none;
+	border-bottom: solid 1px #000;
+	outline: none;
+}
+input[type="submit"] {
+	background: #c0c0c0;
+	border: none;
+	padding: 4px 6px;
+	font-size: 22px;
+	margin: 5px 0 33px;
+	border-bottom: solid 1px #808080;
+}
+input[type="submit"]:hover {
+	background: #d1d1d1;
+	cursor: pointer;
+}
